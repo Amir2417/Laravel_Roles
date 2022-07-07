@@ -14,8 +14,10 @@
                         <ul class="collapse">
                             <li class="active"><a href="{{ route('roles') }}">Roles</a></li>
                             <li><a href="{{ route('roles.create') }}">Manage Permission</a></li>
+                            <li><a href="{{ route('categories.create') }}">Category</a></li>
+                            {{-- <li><a href="{{ route('products.create') }}">Products</a></li> --}}
 
-                            <li><a href="index3.html">SEO dashboard</a></li>
+                            {{-- <li><a href="{{ route('categories.create') }}">Category</a></li> --}}
                         </ul>
                     </li>
                     <li>

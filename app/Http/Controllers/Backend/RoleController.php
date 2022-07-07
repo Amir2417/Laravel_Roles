@@ -33,4 +33,7 @@ class RoleController extends Controller
     return back();
 
    }
+   public function page(){
+    return view('backend.category.index');
+}
 }
