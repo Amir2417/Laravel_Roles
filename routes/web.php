@@ -36,6 +36,7 @@ Route::prefix('admin')->group(function () {
     Route::get('/roles/create', [RoleController::class, 'create'])->name('roles.create');
     Route::post('/roles/store', [RoleController::class, 'store'])->name('roles.store');
     Route::get('/products/create', [ProductController::class, 'create'])->name('products.create');
+    Route::post('/products/store', [ProductController::class, 'store'])->name('product.store');
     // Route::get('/categories', [RoleController::class, 'page'])->name('categories.create');
 
 
